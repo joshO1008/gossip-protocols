@@ -1,62 +1,26 @@
-# Project Title
+# The Efficiency of Distributed Gossip Protocols
 
-Simple overview of use/purpose.
-
-## Description
-
-An in-depth paragraph about your project and overview of use.
+The aim of a gossip protocol is to distribute information throughout a network of agents, when initially each agent only knows a single unique piece of information. This project is designed to provide a simulator in which the user is able to perform various gossip protocols in Python (namely ANY, CO, LNS, TOK and SPI).
 
 ## Getting Started
 
+Note that an understanding of gossip protocols would be beneficial before viewing the code. 
+
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+This code utilises various python modules, most notably the Network X module which is used to model the distribution of agents using mathematical graph theory. The full list of modules is as follows:
+- networkx (as nx)
+- matplotlib.pyplot (as plt)
+- numpy (as np)
+- math
+- time
+- copy
+- pickle
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Simply load all of the files related to this project in Python 3, prefereably using an IDE such as Spyder. Each file contains desrciptions of their contents, as well as descriptions of each functions input/output. 
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+A detailed description of the execution process is given in the dissertation provied.
